@@ -1,0 +1,80 @@
+body,div{
+  text-align: center;
+}
+input{
+  width: 200px;
+  height: 30px;
+  margin: 0 10px;
+}
+#bAdd{
+ padding: 10px;
+}
+
+tr,th,td{
+  text-align: center;
+  padding: 10px 50px;
+  /* border: 2px solid black; */
+ 
+}
+table,tr{
+  border-collapse: collapse;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+#mainTable{
+
+}
+
+.isCompleted{
+  background-color: gray;
+}
+
+.isFinished{
+  text-decoration: line-through;
+}
+
+.contentTodoFInished{
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+
+
+}
+
+.contentTaskEnd{
+  background-color: white;
+  width: 50%;
+  height: 300px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+ 
+}
+
+.end{
+  float: right;
+  padding: 10px;
+}
+
+span{
+  padding: 0 10px;
+}
+
+thead{
+  background-color: #3f51b5;
+  color: white;
+  font-size: 20px;
+}
+
+
+.backFinished{
+  background-color: gray;
+}
